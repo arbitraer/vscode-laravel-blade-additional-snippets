@@ -1,0 +1,47 @@
+{
+	"Blade translation": {
+		"prefix" : "b:langfunction",
+		"body": [
+			"{{ __('$1') }}"
+		],
+		"description": "Snippet for translation method"
+	},
+	"Blade route name method": {
+		"prefix" : "b:route",
+		"body": [
+			"\"{{ route('$1') }}\""
+		],
+		"description": "Snippet laravel named routes in blade."
+	},
+	"Blade href route name method": {
+		"prefix" : "b:href",
+		"body": [
+			"href=\"{{ route('$1') }}\""
+		],
+		"description": "Snippet for href attribute with named routes method in blade."
+	},
+	"Blade img with asset and trans": {
+		"prefix" : "b:img",
+		"body": [
+			"<img src=\"{{ asset('$1') }}\" alt=\"{{ __('$2') }}\">"
+		],
+		"description": "Snippet for image tag with src and alt attribute in blade."
+	},
+	"Blade src asset": {
+		"prefix" : "b:src",
+		"body": [
+			"src=\"{{ asset('$1') }}\""
+		],
+		"description": "Snippet for source attribute with asset method in blade."
+	},
+	"Blade alt translation": {
+		"prefix" : "b:alt",
+		"body": [
+			"alt=\"{{ __('$1') }}\""
+		],
+		"description": "Snippet for alt attribute with translation method in blade."
+	},
+	{
+		asdf:'asdasd'
+	}
+}

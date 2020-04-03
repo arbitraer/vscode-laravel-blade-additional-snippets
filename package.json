@@ -1,0 +1,33 @@
+{
+    "name": "laravel-blade-additional-snippets",
+    "displayName": "Laravel Blade Additional Snippets",
+    "description": "Some additional snippets for Laravel Blade template files including some often used markup + helper method combinations.",
+    "version": "0.0.4",
+    "publisher": "arbitraer",
+    "author": {
+        "name": "Lars Krause",
+        "email": "lars@arbitraer.de",
+        "homepage": "https://arbitraer.de",
+        "role": "Developer"
+    },
+    "homepage": "https://arbitraer.de",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/arbitraer/vscode-laravel-blade-additional-snippets"
+    },
+    "engines": {
+        "vscode": "^1.43.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "icon": "images/icon.png",
+    "contributes": {
+        "snippets": [
+            {
+                "language": "blade",
+                "path": "./snippets/snippets.json"
+            }
+        ]
+    }
+}
