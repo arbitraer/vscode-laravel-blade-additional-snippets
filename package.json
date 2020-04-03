@@ -2,7 +2,7 @@
     "name": "laravel-blade-additional-snippets",
     "displayName": "Laravel Blade Additional Snippets",
     "description": "Some additional snippets for Laravel Blade template files including some often used markup and helper method combinations.",
-    "version": "0.0.5",
+    "version": "0.0.6",
     "publisher": "arbitraer",
     "author": {
         "name": "Lars Krause",
@@ -19,7 +19,8 @@
         "vscode": "^1.43.0"
     },
     "categories": [
-        "Programming Languages", "Snippets"
+        "Programming Languages",
+        "Snippets"
     ],
     "icon": "images/icon.png",
     "galleryBanner": {
