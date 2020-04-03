@@ -22,6 +22,10 @@
         "Snippets"
     ],
     "icon": "images/icon.png",
+    "galleryBanner": {
+        "color": "#232323",
+        "theme": "dark"
+    },
     "contributes": {
         "snippets": [
             {
