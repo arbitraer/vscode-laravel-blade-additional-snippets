@@ -1,7 +1,7 @@
 {
     "name": "laravel-blade-additional-snippets",
     "displayName": "Laravel Blade Additional Snippets",
-    "description": "Some additional snippets for Laravel Blade template files including some often used markup + helper method combinations.",
+    "description": "Some additional snippets for Laravel Blade template files including some often used markup and helper method combinations.",
     "version": "0.0.4",
     "publisher": "arbitraer",
     "author": {
