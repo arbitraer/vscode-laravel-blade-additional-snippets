@@ -1,8 +1,8 @@
 ## Setup
 
-In addtion to this one, we strongly recommend you to install the great [Laravel Blade Snippets](https://marketplace.visualstudio.com/items?itemName=onecentlin.laravel5-snippets) extension by Winnie Lin. Follow the instructions there if you have any trouble with auto completion or syntax highlighting in Blade files.
+In addtion to this one, we strongly recommend you to install the great [Laravel Blade Snippets](https://marketplace.visualstudio.com/items?itemName=onecentlin.laravel-blade) extension by Winnie Lin. Follow the instructions there if you have any trouble with auto completion or syntax highlighting in Blade files.
 
-> Suggest Laravel related extension: [Laravel Blade Snippets](https://marketplace.visualstudio.com/items?itemName=onecentlin.laravel5-snippets)
+> Suggest Laravel related extension: [Laravel Blade Snippets](https://marketplace.visualstudio.com/items?itemName=onecentlin.laravel-blade)
 
 ## How to use
 
