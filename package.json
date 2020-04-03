@@ -19,7 +19,7 @@
         "vscode": "^1.43.0"
     },
     "categories": [
-        "Snippets"
+        "Programming Languages", "Snippets"
     ],
     "icon": "images/icon.png",
     "galleryBanner": {

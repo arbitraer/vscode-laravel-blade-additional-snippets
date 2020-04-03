@@ -1,15 +1,18 @@
 {
 	"Blade translation": {
-		"prefix" : "b:langfunction",
+		"prefix" : [
+			"b:langhelp",
+			"b:langfunction"
+		],
 		"body": [
 			"{{ __('$1') }}"
 		],
-		"description": "Snippet for translation method"
+		"description": "Snippet for translation helper function"
 	},
 	"Blade route name method": {
 		"prefix" : "b:route",
 		"body": [
-			"\"{{ route('$1') }}\""
+			"{{ route('$1') }}"
 		],
 		"description": "Snippet laravel named routes in blade."
 	},
