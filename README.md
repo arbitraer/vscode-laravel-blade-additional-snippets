@@ -16,14 +16,16 @@ Start typing the snippet prefix, select the desired snippet and press TAB or ENT
 
 Here's a list of all current snippet prefixes and their resulting bodies.
 
-| Snippet      |   | Result                                           |
-|--------------|---|--------------------------------------------------|
-| `b:langhelp` | → | `{{ __('') }}`                                   | 
-| `b:route`    | → | `{{ route('') }}`                                |
-| `b:href`     | → | `href="{{ route('') }}"`                         |
-| `b:alt`      | → | `alt="{{ __('') }}"`                             |
-| `b:src`      | → | `src="{{ asset('') }}"`                          |
-| `b:img`      | → | `<img src="{{ asset('') }}" alt="{{ __('') }}">` |
+| Snippet           |   | Result                                                                    |
+|-------------------|---|---------------------------------------------------------------------------|
+| `b:langhelp`      | → | `{{ __('') }}`                                                            | 
+| `b:route`         | → | `{{ route('') }}`                                                         |
+| `b:href`          | → | `href="{{ route('') }}"`                                                  |
+| `b:alt`           | → | `alt="{{ __('') }}"`                                                      |
+| `b:src`           | → | `src="{{ asset('') }}"`                                                   |
+| `b:img`           | → | `<img src="{{ asset('') }}" alt="{{ __('') }}">`                          |
+| `b:anchor`        | → | `<a href="{{ route('') }}" alt="{{ __('') }}">{{ __('') }}</a>`           |
+| `b:anchor-class`  | → | `<a class="" href="{{ route('') }}" alt="{{ __('') }}">{{ __('') }}</a>`  |
 
 ## Credits
 
