@@ -44,7 +44,18 @@
 		],
 		"description": "Snippet for alt attribute with translation method in blade."
 	},
-	{
-		asdf:'asdasd'
+	"Blade anchor with route method": {
+		"prefix" : "b:anchor",
+		"body": [
+			"<a href=\"{{ route('$1') }}\" alt=\"{{ __('$2') }}\">{{ __('$3') }}</a>"
+		],
+		"description": "Snippet for anchor tag with named route href attribute and alt attribute in blade."
+	},
+	"Blade anchor with route method and class": {
+		"prefix" : "b:anchor-class",
+		"body": [
+			"<a class=\"$1\" href=\"{{ route('$2') }}\" alt=\"{{ __('$3') }}\">{{ __('$4') }}</a>"
+		],
+		"description": "Snippet for anchor tag with named route href attribute and alt attribute in blade."
 	}
 }
