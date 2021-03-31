@@ -1,38 +1,38 @@
 {
-    "name": "laravel-blade-additional-snippets",
-    "displayName": "Laravel Blade Additional Snippets",
-    "description": "Some additional snippets for Laravel Blade template files including some often used markup and helper method combinations.",
-    "version": "0.0.6",
-    "publisher": "arbitraer",
-    "author": {
-        "name": "Lars Krause",
-        "email": "lars@arbitraer.de",
-        "homepage": "https://arbitraer.de",
-        "role": "Developer"
-    },
+  "name": "laravel-blade-additional-snippets",
+  "displayName": "Laravel Blade Additional Snippets",
+  "description": "Some additional snippets for Laravel Blade template files including some often used markup and helper method combinations.",
+  "version": "0.0.7",
+  "publisher": "arbitraer",
+  "author": {
+    "name": "Lars Krause",
+    "email": "lars@arbitraer.de",
     "homepage": "https://arbitraer.de",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/arbitraer/vscode-laravel-blade-additional-snippets"
-    },
-    "engines": {
-        "vscode": "^1.43.0"
-    },
-    "categories": [
-        "Programming Languages",
-        "Snippets"
-    ],
-    "icon": "images/icon.png",
-    "galleryBanner": {
-        "color": "#232323",
-        "theme": "dark"
-    },
-    "contributes": {
-        "snippets": [
-            {
-                "language": "blade",
-                "path": "./snippets/snippets.json"
-            }
-        ]
-    }
+    "role": "Developer"
+  },
+  "homepage": "https://arbitraer.de",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arbitraer/vscode-laravel-blade-additional-snippets"
+  },
+  "engines": {
+    "vscode": "^1.43.0"
+  },
+  "categories": [
+    "Programming Languages",
+    "Snippets"
+  ],
+  "icon": "images/icon.png",
+  "galleryBanner": {
+    "color": "#232323",
+    "theme": "dark"
+  },
+  "contributes": {
+    "snippets": [
+      {
+        "language": "blade",
+        "path": "./snippets/snippets.json"
+      }
+    ]
+  }
 }
